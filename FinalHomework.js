@@ -2,21 +2,28 @@ console.log("FinalHomework.js file linked, Happy Coding :)");
 /*use ES6 syntax in all the tasks */
 //0.a Declare a variable called 'myName' give it your name
 //0.b create an array called 'marks' that has 10 marks in rang from 0 to 100
-
+let myName='mohammed';
+let marks=[75,90,56,39,99,24,68,30,78,45]
 //0.c Create array called 'myClass' consisting of strings that represent:
 // -name of females in your class
 // -name of males in your class
 // -name of your class instructor ;)
-
+let myClass=[
+    'Ghalya','Aisha', 'zahra','aya','boshra','taha','osama','Mohammed','Essam'
+];
 //1 write a function called 'getMiddleValue' that takes an array as an argument and returns the element that is located in the middle of that array.
+let getMiddleValue =(...args) =>{
 
+    let  mid =getMiddleValue[Math.round((getMiddleValue.length-1)/2)]
 //after that uncomment the next 2 lines
-//getMiddleValue([4,6,64,3,2]) // 64
-//getMiddleValue([4,6, 3, 5, 64,3,2]) // 5
+getMiddleValue([4,6,64,3,2]) // 64
+getMiddleValue([4,6, 3, 5, 64,3,2]) // 5
 
 //2 create a function called 'calculateAverage' that receives an array of numbers as a parameter (give it a default value of empty array to prevent error)
 //it returns the average of numbers inside the array
+let calculateAverage=()=>{
 
+}
 //after that uncomment the next lines
 // calculateAverage() // you shouldn't see an error
 // calculateAverage([5, 15, 10]) // 10
